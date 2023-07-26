@@ -1,0 +1,550 @@
+[gd_scene load_steps=2 format=3 uid="uid://dmrxh6fo0hyr6"]
+
+[ext_resource type="Script" path="res://scrip/name_character.gd" id="1_whayr"]
+
+[node name="NameCharacter" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_whayr")
+MaxCaracter = 10
+
+[node name="Fonndo" type="ColorRect" parent="."]
+layout_mode = 0
+offset_left = 287.0
+offset_top = 86.0
+offset_right = 708.0
+offset_bottom = 584.0
+color = Color(1, 1, 1, 0.121569)
+
+[node name="LblName" type="Label" parent="Fonndo"]
+layout_mode = 0
+offset_left = 216.0
+offset_top = 69.0
+offset_right = 347.0
+offset_bottom = 104.0
+
+[node name="Mayusculas" type="GridContainer" parent="Fonndo"]
+layout_mode = 0
+offset_left = 20.0
+offset_top = 146.0
+offset_right = 148.0
+offset_bottom = 457.0
+columns = 5
+
+[node name="BtnA" type="Button" parent="Fonndo/Mayusculas"]
+layout_mode = 2
+text = "A"
+
+[node name="BtnB" type="Button" parent="Fonndo/Mayusculas"]
+layout_mode = 2
+text = "B"
+
+[node name="BtnC" type="Button" parent="Fonndo/Mayusculas"]
+layout_mode = 2
+text = "C"
+
+[node name="BtnD" type="Button" parent="Fonndo/Mayusculas"]
+layout_mode = 2
+text = "D"
+
+[node name="BtnE" type="Button" parent="Fonndo/Mayusculas"]
+layout_mode = 2
+text = "E"
+
+[node name="BtnF" type="Button" parent="Fonndo/Mayusculas"]
+layout_mode = 2
+text = "F"
+
+[node name="BtnG" type="Button" parent="Fonndo/Mayusculas"]
+layout_mode = 2
+text = "G"
+
+[node name="BtnH" type="Button" parent="Fonndo/Mayusculas"]
+layout_mode = 2
+text = "H"
+
+[node name="BtnI" type="Button" parent="Fonndo/Mayusculas"]
+layout_mode = 2
+text = "I"
+
+[node name="BtnJ" type="Button" parent="Fonndo/Mayusculas"]
+layout_mode = 2
+text = "J"
+
+[node name="BtnK" type="Button" parent="Fonndo/Mayusculas"]
+layout_mode = 2
+text = "K"
+
+[node name="BtnL" type="Button" parent="Fonndo/Mayusculas"]
+layout_mode = 2
+text = "L"
+
+[node name="BtnM" type="Button" parent="Fonndo/Mayusculas"]
+layout_mode = 2
+text = "M
+"
+
+[node name="BtnN" type="Button" parent="Fonndo/Mayusculas"]
+layout_mode = 2
+text = "N
+"
+
+[node name="BtnÑ" type="Button" parent="Fonndo/Mayusculas"]
+visible = false
+layout_mode = 2
+text = "Ñ"
+
+[node name="BtnO" type="Button" parent="Fonndo/Mayusculas"]
+layout_mode = 2
+text = "O"
+
+[node name="BtnP" type="Button" parent="Fonndo/Mayusculas"]
+layout_mode = 2
+text = "P"
+
+[node name="BtnQ" type="Button" parent="Fonndo/Mayusculas"]
+layout_mode = 2
+text = "Q"
+
+[node name="BtnR" type="Button" parent="Fonndo/Mayusculas"]
+layout_mode = 2
+text = "R"
+
+[node name="BtnS" type="Button" parent="Fonndo/Mayusculas"]
+layout_mode = 2
+text = "S
+"
+
+[node name="BtnT" type="Button" parent="Fonndo/Mayusculas"]
+layout_mode = 2
+text = "T"
+
+[node name="BtnU" type="Button" parent="Fonndo/Mayusculas"]
+layout_mode = 2
+text = "U"
+
+[node name="BtnV" type="Button" parent="Fonndo/Mayusculas"]
+layout_mode = 2
+text = "V"
+
+[node name="BtnW" type="Button" parent="Fonndo/Mayusculas"]
+layout_mode = 2
+text = "W"
+
+[node name="BtnY" type="Button" parent="Fonndo/Mayusculas"]
+layout_mode = 2
+text = "Y"
+
+[node name="BtnX" type="Button" parent="Fonndo/Mayusculas"]
+layout_mode = 2
+text = "X"
+
+[node name="BtnZ" type="Button" parent="Fonndo/Mayusculas"]
+layout_mode = 2
+text = "Z"
+
+[node name="Btn[" type="Button" parent="Fonndo/Mayusculas"]
+layout_mode = 2
+text = "["
+
+[node name="Btn]" type="Button" parent="Fonndo/Mayusculas"]
+layout_mode = 2
+text = "]"
+
+[node name="Btn^" type="Button" parent="Fonndo/Mayusculas"]
+layout_mode = 2
+text = "^"
+
+[node name="Btn_" type="Button" parent="Fonndo/Mayusculas"]
+layout_mode = 2
+text = "_"
+
+[node name="Btn0" type="Button" parent="Fonndo/Mayusculas"]
+layout_mode = 2
+text = "0"
+
+[node name="Btn1" type="Button" parent="Fonndo/Mayusculas"]
+layout_mode = 2
+text = "1"
+
+[node name="Btn2" type="Button" parent="Fonndo/Mayusculas"]
+layout_mode = 2
+text = "2"
+
+[node name="Btn3" type="Button" parent="Fonndo/Mayusculas"]
+layout_mode = 2
+text = "3"
+
+[node name="Btn4" type="Button" parent="Fonndo/Mayusculas"]
+layout_mode = 2
+text = "4"
+
+[node name="Btn5" type="Button" parent="Fonndo/Mayusculas"]
+layout_mode = 2
+text = "5"
+
+[node name="Btn6" type="Button" parent="Fonndo/Mayusculas"]
+layout_mode = 2
+text = "6"
+
+[node name="Btn7" type="Button" parent="Fonndo/Mayusculas"]
+layout_mode = 2
+text = "7"
+
+[node name="Btn8" type="Button" parent="Fonndo/Mayusculas"]
+layout_mode = 2
+text = "8"
+
+[node name="Btn9" type="Button" parent="Fonndo/Mayusculas"]
+layout_mode = 2
+text = "9"
+
+[node name="BtnGuion" type="Button" parent="Fonndo/Mayusculas"]
+layout_mode = 2
+text = "/"
+
+[node name="Btn=" type="Button" parent="Fonndo/Mayusculas"]
+layout_mode = 2
+text = "="
+
+[node name="BtnArroba" type="Button" parent="Fonndo/Mayusculas"]
+layout_mode = 2
+text = "@"
+
+[node name="Btn<" type="Button" parent="Fonndo/Mayusculas"]
+layout_mode = 2
+text = "<"
+
+[node name="Btn>" type="Button" parent="Fonndo/Mayusculas"]
+layout_mode = 2
+text = ">"
+
+[node name="Minusculas" type="GridContainer" parent="Fonndo"]
+layout_mode = 0
+offset_left = 223.0
+offset_top = 146.0
+offset_right = 351.0
+offset_bottom = 457.0
+columns = 5
+
+[node name="BtnA" type="Button" parent="Fonndo/Minusculas"]
+layout_mode = 2
+text = "a"
+
+[node name="BtnB" type="Button" parent="Fonndo/Minusculas"]
+layout_mode = 2
+text = "b"
+
+[node name="BtnC" type="Button" parent="Fonndo/Minusculas"]
+layout_mode = 2
+text = "c"
+
+[node name="BtnD" type="Button" parent="Fonndo/Minusculas"]
+layout_mode = 2
+text = "d"
+
+[node name="BtnE" type="Button" parent="Fonndo/Minusculas"]
+layout_mode = 2
+text = "e"
+
+[node name="BtnF" type="Button" parent="Fonndo/Minusculas"]
+layout_mode = 2
+text = "f"
+
+[node name="BtnG" type="Button" parent="Fonndo/Minusculas"]
+layout_mode = 2
+text = "g"
+
+[node name="BtnH" type="Button" parent="Fonndo/Minusculas"]
+layout_mode = 2
+text = "h"
+
+[node name="BtnI" type="Button" parent="Fonndo/Minusculas"]
+layout_mode = 2
+text = "i"
+
+[node name="BtnJ" type="Button" parent="Fonndo/Minusculas"]
+layout_mode = 2
+text = "j"
+
+[node name="BtnK" type="Button" parent="Fonndo/Minusculas"]
+layout_mode = 2
+text = "k"
+
+[node name="BtnL" type="Button" parent="Fonndo/Minusculas"]
+layout_mode = 2
+text = "l"
+
+[node name="BtnM" type="Button" parent="Fonndo/Minusculas"]
+layout_mode = 2
+text = "m
+"
+
+[node name="BtnN" type="Button" parent="Fonndo/Minusculas"]
+layout_mode = 2
+text = "n"
+
+[node name="BtnÑ" type="Button" parent="Fonndo/Minusculas"]
+visible = false
+layout_mode = 2
+text = "ñ"
+
+[node name="BtnO" type="Button" parent="Fonndo/Minusculas"]
+layout_mode = 2
+text = "o"
+
+[node name="BtnP" type="Button" parent="Fonndo/Minusculas"]
+layout_mode = 2
+text = "p"
+
+[node name="BtnQ" type="Button" parent="Fonndo/Minusculas"]
+layout_mode = 2
+text = "q"
+
+[node name="BtnR" type="Button" parent="Fonndo/Minusculas"]
+layout_mode = 2
+text = "r"
+
+[node name="BtnS" type="Button" parent="Fonndo/Minusculas"]
+layout_mode = 2
+text = "s
+"
+
+[node name="BtnT" type="Button" parent="Fonndo/Minusculas"]
+layout_mode = 2
+text = "t"
+
+[node name="BtnU" type="Button" parent="Fonndo/Minusculas"]
+layout_mode = 2
+text = "u"
+
+[node name="BtnV" type="Button" parent="Fonndo/Minusculas"]
+layout_mode = 2
+text = "v"
+
+[node name="BtnW" type="Button" parent="Fonndo/Minusculas"]
+layout_mode = 2
+text = "w"
+
+[node name="BtnY" type="Button" parent="Fonndo/Minusculas"]
+layout_mode = 2
+text = "y"
+
+[node name="BtnX" type="Button" parent="Fonndo/Minusculas"]
+layout_mode = 2
+text = "x"
+
+[node name="BtnZ" type="Button" parent="Fonndo/Minusculas"]
+layout_mode = 2
+text = "z"
+
+[node name="Btn{" type="Button" parent="Fonndo/Minusculas"]
+layout_mode = 2
+text = "{"
+
+[node name="Btn}" type="Button" parent="Fonndo/Minusculas"]
+layout_mode = 2
+text = "}"
+
+[node name="Btn|" type="Button" parent="Fonndo/Minusculas"]
+layout_mode = 2
+text = "|"
+
+[node name="Btn~" type="Button" parent="Fonndo/Minusculas"]
+layout_mode = 2
+text = "~
+"
+
+[node name="Btn!" type="Button" parent="Fonndo/Minusculas"]
+layout_mode = 2
+text = "!"
+
+[node name="Btn#" type="Button" parent="Fonndo/Minusculas"]
+layout_mode = 2
+text = "#"
+
+[node name="Btn$" type="Button" parent="Fonndo/Minusculas"]
+layout_mode = 2
+text = "$"
+
+[node name="BtnPorcentaje" type="Button" parent="Fonndo/Minusculas"]
+layout_mode = 2
+text = "%"
+
+[node name="Btn&" type="Button" parent="Fonndo/Minusculas"]
+layout_mode = 2
+text = "&"
+
+[node name="Btn(" type="Button" parent="Fonndo/Minusculas"]
+layout_mode = 2
+text = "("
+
+[node name="Btn)" type="Button" parent="Fonndo/Minusculas"]
+layout_mode = 2
+text = ")"
+
+[node name="Btn*" type="Button" parent="Fonndo/Minusculas"]
+layout_mode = 2
+text = "*"
+
+[node name="Btn+" type="Button" parent="Fonndo/Minusculas"]
+layout_mode = 2
+text = "+"
+
+[node name="Btn-" type="Button" parent="Fonndo/Minusculas"]
+layout_mode = 2
+text = "-"
+
+[node name="BtnDosP" type="Button" parent="Fonndo/Minusculas"]
+layout_mode = 2
+text = ":"
+
+[node name="BtnPuntoC" type="Button" parent="Fonndo/Minusculas"]
+layout_mode = 2
+text = ";"
+
+[node name="BtnEspacio" type="Button" parent="Fonndo/Minusculas"]
+layout_mode = 2
+
+[node name="Btn" type="Button" parent="Fonndo/Minusculas"]
+layout_mode = 2
+
+[node name="BtnOk" type="Button" parent="Fonndo/Minusculas"]
+layout_mode = 2
+text = "OK"
+
+[node name="Continue" type="ColorRect" parent="."]
+visible = false
+layout_mode = 0
+offset_left = 393.0
+offset_top = 210.0
+offset_right = 746.0
+offset_bottom = 361.0
+color = Color(1, 1, 1, 0.121569)
+
+[node name="Lbl_1" type="Label" parent="Continue"]
+layout_mode = 0
+offset_right = 113.0
+offset_bottom = 23.0
+text = "Estas seguro que te llamas: "
+
+[node name="Lbl_2" type="Label" parent="Continue"]
+layout_mode = 0
+offset_left = 212.0
+offset_right = 224.0
+offset_bottom = 26.0
+
+[node name="BtnAccept" type="Button" parent="Continue"]
+layout_mode = 0
+offset_left = 41.0
+offset_top = 97.0
+offset_right = 98.0
+offset_bottom = 121.0
+text = "Si"
+
+[node name="BtnNo" type="Button" parent="Continue"]
+layout_mode = 0
+offset_left = 153.0
+offset_top = 97.0
+offset_right = 210.0
+offset_bottom = 128.0
+text = "No"
+
+[connection signal="pressed" from="Fonndo/Mayusculas/BtnA" to="." method="_on_btn_A_pressed"]
+[connection signal="pressed" from="Fonndo/Mayusculas/BtnB" to="." method="_on_btn_B_pressed"]
+[connection signal="pressed" from="Fonndo/Mayusculas/BtnC" to="." method="_on_btn_C_pressed"]
+[connection signal="pressed" from="Fonndo/Mayusculas/BtnD" to="." method="_on_btn_D_pressed"]
+[connection signal="pressed" from="Fonndo/Mayusculas/BtnE" to="." method="_on_btn_E_pressed"]
+[connection signal="pressed" from="Fonndo/Mayusculas/BtnF" to="." method="_on_btn_F_pressed"]
+[connection signal="pressed" from="Fonndo/Mayusculas/BtnG" to="." method="_on_btn_G_pressed"]
+[connection signal="pressed" from="Fonndo/Mayusculas/BtnH" to="." method="_on_btn_H_pressed"]
+[connection signal="pressed" from="Fonndo/Mayusculas/BtnI" to="." method="_on_btn_I_pressed"]
+[connection signal="pressed" from="Fonndo/Mayusculas/BtnJ" to="." method="_on_btn_J_pressed"]
+[connection signal="pressed" from="Fonndo/Mayusculas/BtnK" to="." method="_on_btn_K_pressed"]
+[connection signal="pressed" from="Fonndo/Mayusculas/BtnL" to="." method="_on_btn_L_pressed"]
+[connection signal="pressed" from="Fonndo/Mayusculas/BtnM" to="." method="_on_btn_M_pressed"]
+[connection signal="pressed" from="Fonndo/Mayusculas/BtnN" to="." method="_on_btn_N_pressed"]
+[connection signal="pressed" from="Fonndo/Mayusculas/BtnÑ" to="." method="_on_btn_Ñ_pressed"]
+[connection signal="pressed" from="Fonndo/Mayusculas/BtnO" to="." method="_on_btn_O_pressed"]
+[connection signal="pressed" from="Fonndo/Mayusculas/BtnP" to="." method="_on_btn_P_pressed"]
+[connection signal="pressed" from="Fonndo/Mayusculas/BtnQ" to="." method="_on_btn_Q_pressed"]
+[connection signal="pressed" from="Fonndo/Mayusculas/BtnR" to="." method="_on_btn_R_pressed"]
+[connection signal="pressed" from="Fonndo/Mayusculas/BtnS" to="." method="_on_btn_S_pressed"]
+[connection signal="pressed" from="Fonndo/Mayusculas/BtnT" to="." method="_on_btn_T_pressed"]
+[connection signal="pressed" from="Fonndo/Mayusculas/BtnU" to="." method="_on_btn_U_pressed"]
+[connection signal="pressed" from="Fonndo/Mayusculas/BtnV" to="." method="_on_btn_V_pressed"]
+[connection signal="pressed" from="Fonndo/Mayusculas/BtnW" to="." method="_on_btn_W_pressed"]
+[connection signal="pressed" from="Fonndo/Mayusculas/BtnY" to="." method="_on_btn_Y_pressed"]
+[connection signal="pressed" from="Fonndo/Mayusculas/BtnX" to="." method="_on_btn_X_pressed"]
+[connection signal="pressed" from="Fonndo/Mayusculas/BtnZ" to="." method="_on_btn_Z_pressed"]
+[connection signal="pressed" from="Fonndo/Mayusculas/Btn[" to="." method="_on_btn_CorIzq_pressed"]
+[connection signal="pressed" from="Fonndo/Mayusculas/Btn]" to="." method="_on_btn_CorDer_pressed"]
+[connection signal="pressed" from="Fonndo/Mayusculas/Btn^" to="." method="_on_btn_arr_pressed"]
+[connection signal="pressed" from="Fonndo/Mayusculas/Btn_" to="." method="_on_btn___pressed"]
+[connection signal="pressed" from="Fonndo/Mayusculas/Btn0" to="." method="_on_btn_0_pressed"]
+[connection signal="pressed" from="Fonndo/Mayusculas/Btn1" to="." method="_on_btn_1_pressed"]
+[connection signal="pressed" from="Fonndo/Mayusculas/Btn2" to="." method="_on_btn_2_pressed"]
+[connection signal="pressed" from="Fonndo/Mayusculas/Btn3" to="." method="_on_btn_3_pressed"]
+[connection signal="pressed" from="Fonndo/Mayusculas/Btn4" to="." method="_on_btn_4_pressed"]
+[connection signal="pressed" from="Fonndo/Mayusculas/Btn5" to="." method="_on_btn_5_pressed"]
+[connection signal="pressed" from="Fonndo/Mayusculas/Btn6" to="." method="_on_btn_6_pressed"]
+[connection signal="pressed" from="Fonndo/Mayusculas/Btn7" to="." method="_on_btn_7_pressed"]
+[connection signal="pressed" from="Fonndo/Mayusculas/Btn8" to="." method="_on_btn_8_pressed"]
+[connection signal="pressed" from="Fonndo/Mayusculas/Btn9" to="." method="_on_btn_9_pressed"]
+[connection signal="pressed" from="Fonndo/Mayusculas/BtnGuion" to="." method="_on_btn_guion_pressed"]
+[connection signal="pressed" from="Fonndo/Mayusculas/Btn=" to="." method="_on_btn_Igual_pressed"]
+[connection signal="pressed" from="Fonndo/Mayusculas/BtnArroba" to="." method="_on_btn_arroba_pressed"]
+[connection signal="pressed" from="Fonndo/Mayusculas/Btn<" to="." method="_on_btn_MenosQ_pressed"]
+[connection signal="pressed" from="Fonndo/Mayusculas/Btn>" to="." method="_on_btn_MasQ_pressed"]
+[connection signal="pressed" from="Fonndo/Minusculas/BtnA" to="." method="_on_btn_a_pressed"]
+[connection signal="pressed" from="Fonndo/Minusculas/BtnB" to="." method="_on_btn_b_pressed"]
+[connection signal="pressed" from="Fonndo/Minusculas/BtnC" to="." method="_on_btn_c_pressed"]
+[connection signal="pressed" from="Fonndo/Minusculas/BtnD" to="." method="_on_btn_d_pressed"]
+[connection signal="pressed" from="Fonndo/Minusculas/BtnE" to="." method="_on_btn_e_pressed"]
+[connection signal="pressed" from="Fonndo/Minusculas/BtnF" to="." method="_on_btn_f_pressed"]
+[connection signal="pressed" from="Fonndo/Minusculas/BtnG" to="." method="_on_btn_g_pressed"]
+[connection signal="pressed" from="Fonndo/Minusculas/BtnH" to="." method="_on_btn_h_pressed"]
+[connection signal="pressed" from="Fonndo/Minusculas/BtnI" to="." method="_on_btn_i_pressed"]
+[connection signal="pressed" from="Fonndo/Minusculas/BtnJ" to="." method="_on_btn_j_pressed"]
+[connection signal="pressed" from="Fonndo/Minusculas/BtnK" to="." method="_on_btn_k_pressed"]
+[connection signal="pressed" from="Fonndo/Minusculas/BtnL" to="." method="_on_btn_l_pressed"]
+[connection signal="pressed" from="Fonndo/Minusculas/BtnM" to="." method="_on_btn_m_pressed"]
+[connection signal="pressed" from="Fonndo/Minusculas/BtnN" to="." method="_on_btn_n_pressed"]
+[connection signal="pressed" from="Fonndo/Minusculas/BtnÑ" to="." method="_on_btnñ_pressed"]
+[connection signal="pressed" from="Fonndo/Minusculas/BtnO" to="." method="_on_btn_o_pressed"]
+[connection signal="pressed" from="Fonndo/Minusculas/BtnP" to="." method="_on_btn_p_pressed"]
+[connection signal="pressed" from="Fonndo/Minusculas/BtnQ" to="." method="_on_btn_q_pressed"]
+[connection signal="pressed" from="Fonndo/Minusculas/BtnR" to="." method="_on_btn_r_pressed"]
+[connection signal="pressed" from="Fonndo/Minusculas/BtnS" to="." method="_on_btn_s_pressed"]
+[connection signal="pressed" from="Fonndo/Minusculas/BtnT" to="." method="_on_btn_t_pressed"]
+[connection signal="pressed" from="Fonndo/Minusculas/BtnU" to="." method="_on_btn_u_pressed"]
+[connection signal="pressed" from="Fonndo/Minusculas/BtnV" to="." method="_on_btn_v_pressed"]
+[connection signal="pressed" from="Fonndo/Minusculas/BtnW" to="." method="_on_btn_w_pressed"]
+[connection signal="pressed" from="Fonndo/Minusculas/BtnY" to="." method="_on_btn_y_pressed"]
+[connection signal="pressed" from="Fonndo/Minusculas/BtnX" to="." method="_on_btn_x_pressed"]
+[connection signal="pressed" from="Fonndo/Minusculas/BtnZ" to="." method="_on_btn_z_pressed"]
+[connection signal="pressed" from="Fonndo/Minusculas/Btn{" to="." method="_on_btn_LlaveIzq_pressed"]
+[connection signal="pressed" from="Fonndo/Minusculas/Btn}" to="." method="_on_btn_LlaveDer_pressed"]
+[connection signal="pressed" from="Fonndo/Minusculas/Btn|" to="." method="_on_btn_Barra_pressed"]
+[connection signal="pressed" from="Fonndo/Minusculas/Btn~" to="." method="_on_btn_Tilde_pressed"]
+[connection signal="pressed" from="Fonndo/Minusculas/Btn!" to="." method="_on_btn_Exclamacion_pressed"]
+[connection signal="pressed" from="Fonndo/Minusculas/Btn#" to="." method="_on_btn_Gato_pressed"]
+[connection signal="pressed" from="Fonndo/Minusculas/Btn$" to="." method="_on_btn_Dolar_pressed"]
+[connection signal="pressed" from="Fonndo/Minusculas/BtnPorcentaje" to="." method="_on_btn_porcentaje_pressed"]
+[connection signal="pressed" from="Fonndo/Minusculas/Btn&" to="." method="_on_btn_And_pressed"]
+[connection signal="pressed" from="Fonndo/Minusculas/Btn(" to="." method="_on_btn_ParIzq_pressed"]
+[connection signal="pressed" from="Fonndo/Minusculas/Btn)" to="." method="_on_btn_ParDer_pressed"]
+[connection signal="pressed" from="Fonndo/Minusculas/Btn*" to="." method="_on_btn_Aterisco_pressed"]
+[connection signal="pressed" from="Fonndo/Minusculas/Btn+" to="." method="_on_btn_Mas_pressed"]
+[connection signal="pressed" from="Fonndo/Minusculas/Btn-" to="." method="_on_btn_Menos_pressed"]
+[connection signal="pressed" from="Fonndo/Minusculas/BtnDosP" to="." method="_on_btn_dos_p_pressed"]
+[connection signal="pressed" from="Fonndo/Minusculas/BtnPuntoC" to="." method="_on_btn_punto_c_pressed"]
+[connection signal="pressed" from="Fonndo/Minusculas/BtnEspacio" to="." method="_on_btn_espacio_pressed"]
+[connection signal="pressed" from="Fonndo/Minusculas/Btn" to="." method="_on_btn_pressed"]
+[connection signal="pressed" from="Fonndo/Minusculas/BtnOk" to="." method="_on_btn_ok_pressed"]
+[connection signal="pressed" from="Continue/BtnAccept" to="." method="_on_btn_accept_pressed"]
+[connection signal="pressed" from="Continue/BtnNo" to="." method="_on_btn_no_pressed"]
